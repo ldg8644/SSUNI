@@ -161,7 +161,7 @@ article img{width: 100%;}
 .con{
     margin: 0px auto;
     display: grid;
-    max-width: 500px;
+    max-width: 414px;
     padding: 0px 1%;
     box-sizing: border-box;
     grid-template-columns: auto;
