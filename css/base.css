@@ -15,7 +15,7 @@ a{
     color: #333333;
 }
 
-input[type='checkbox']{display: none;}
+#toggle{display: none;}
 
 .new_item>h2, .brand>h2, .ad>h2, .slide>h2, .store>h2{display: none;}
 
@@ -37,6 +37,8 @@ text-indent: -55555px;}
 
 }
 
+.con>h2{display: none;}
+
 i.fa-plus{
     float: right;
     border: 1px solid #333;
@@ -47,20 +49,20 @@ i.fa-plus{
     padding-top: 5px;
 }
 .notice li,.news li{
-    line-height: 220%;
-    text-indent: 10px;
+    line-height: 160%;
+   
     overflow: hidden;
     text-overflow: ellipsis;/*텍스트가 넘치면 생략기호 나오게 하기*/
     white-space: nowrap;
     font-size: 16px;
-    width: 400px;
+
 }
 .notice a:hover,.news a:hover{
     text-decoration: underline;
 }
 
 
-footer{
+footer{    background: rgba(255, 255, 255, 0.7);
     border-top: 1px solid #333333;
 }
 footer>address{
@@ -68,3 +70,4 @@ footer>address{
     text-align: center;
     line-height: 160%;
 }
+#sh{    text-align: center;}

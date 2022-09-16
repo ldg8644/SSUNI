@@ -139,7 +139,7 @@ main{margin-bottom: 30px;}
 
 
 
-}
+
 
 
 /*메인콘텐츠 서식*/
@@ -212,7 +212,11 @@ article img{width: 100%;}
 }
 
 
-
+.notice li, .news li{
+    text-indent: 10px;
+    min-width: 320px;
+    max-width: 414px;
+}
 footer{
 padding: 10px 0px ;
 }
@@ -225,3 +229,4 @@ footer a{font-weight: 500;}
     display: inline-block;
 }
 .sns{padding: 16px 0px;}
+}
